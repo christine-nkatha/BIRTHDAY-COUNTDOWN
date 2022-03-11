@@ -1,0 +1,20 @@
+/tml, body, div{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+body {
+  font-size: 14px;
+  line-height: 24px;
+  color: #060829;
+  font-family: 'robotoregular';
+  overflow-x: hidden;
+}
+button,
+input {
+  line-height: normal;
+  *overflow: visible;
+}
+
