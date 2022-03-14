@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="ben.css" />
+</head>
+<body>
+<br>
+<h3>Input your BirthDate,Day of the week and Gender</h3>
+<h3>Then Click Submit Button To See Your Akan Name </h3>
+<br>
+<div id="birthday">
+<br>
+<form method="post" action="#" onsubmit="onFormSubmit();">
+<label class="lab" >BirthDate: </label><input type="date" required> 
+<label class="lab">Day of the week: </label><input type="number" 
+id="day"required min="0" max="6" placeholder="0-6">
+<br><br>
+<label class="lab">Gender: </label><input type="text" id="gender" 
+placeholder="male or female" required>
+<input type="submit" onclick="showName()" id="button"> 
+<br><br>
+<span class="lab">Your Akan Name is: <label id="demo"></label></span>
+</form>
+<br>
+</div>
+
+<script src="name.js" type="text/javascript"></script>
+</body>
+</html>
